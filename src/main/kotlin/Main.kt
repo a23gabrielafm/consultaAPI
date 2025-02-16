@@ -54,12 +54,6 @@ fun main() {
     val personajes: List<Personaje> = json.decodeFromString(datosPersonajes ?:"")
     val hechizos: List<Hechizo> = json.decodeFromString(datosHechizos?:"")
 
-//    println("Personajes:")
-//    println(personajes)
-//
-//    println("\nHechizos:")
-//    println(hechizos)
-
     // Mostrar los primeros 3 personajes
     println("Consultas relacionadas con los personajes")
 
